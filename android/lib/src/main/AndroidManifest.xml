@@ -32,7 +32,7 @@
         </service>
         <service
             android:name="com.marianhello.bgloc.sync.AuthenticatorService"
-            android:exported="true">
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator"/>
             </intent-filter>
